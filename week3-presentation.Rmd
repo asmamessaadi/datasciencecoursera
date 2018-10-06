@@ -1,0 +1,16 @@
+---
+title: "Week 3 Assignemnt"
+author: "Data Analyst"
+date: "October 4, 2018"
+output:
+  slidy_presentation: default
+---
+#Mtcars
+```{r setup, include=FALSE}
+library(plotly)
+library(datasets)
+plot_ly(mtcars, x = mtcars$wt, y= mtcars$mpg, mode= "markers", color = mtcars$cyl)
+```
+
+# Thank you
+
